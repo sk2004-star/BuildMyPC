@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BuildMyPC - Build</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="first.js"></script>
+    </head>
+    <body>
+         <nav>
+            <div class = "thumbnail">
+                BuildMyPC
+            </div>
+            <ul>
+                <li><a href = "index.html">Home</a></li>
+                <li><a href= "build.html">Build</a></li>
+                <li><a href = "compatibility.html">Compatibility</a></li>
+                <li><a href = "login.html">Login</a></li>
+            </ul>
+            </nav>
+            <div class="form-container">
+                <h1>PC Building</h1>
+                <select id="choice">
+                    <option>Select Purpose</option>
+                    <option>Gaming</option>
+                    <option>Editing</option>
+                    <option>Programming</option>
+                    <option>General Use</option>
+                </select>
+                <select id="budget">
+                    <option>Select Budget</option>
+                    <option>40000</option>
+                    <option>60000</option>
+                    <option>80000</option>
+                    <option>100000</option>
+
+                </select>
+                 <button onclick="showBuild()">Generate Build</button>
+                 <p id="result"></p>
+            </div>
+    </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BuildMyPC - Compatibility</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="first.js"></script>
+    </head>
+    <body>
+         <nav>
+            <div class = "thumbnail">
+                BuildMyPC
+            </div>
+            <ul>
+                <li><a href = "index.html">Home</a></li>
+                <li><a href= "build.html">Build</a></li>
+                <li><a href = "compatibility.html">Compatibility</a></li>
+                <li><a href = "login.html">Login</a></li>
+            </ul>
+            </nav>
+            <div class="form-container">
+                <h1>Compatibility Check</h1>
+                <select id="cpu">
+                    <option>Select Component</option>
+                    <option>Intel i5 12400F</option>
+                    <option>Intel i7 12700K</option>
+                    <option>AMD Ryzen 5 5600X</option>
+                    <option>AMD Ryzen 7 5800X</option>
+                </select>
+                <select id="motherboard">
+                    <option>Select Component</option>
+                    <option>ASUS ROG Strix B660-F Gaming WiFi</option>
+                    <option>MSI MAG B660 Tomahawk WiFi DDR4</option>
+                    <option>ASUS ROG Strix B550-F Gaming WiFi</option>
+                    <option>MSI MAG B550 Tomahawk WiFi</option>
+                </select>
+                <button type="button" onclick="checkCompatibility()">Check Compatibility</button>
+                <p id="result"></p>
+            </div>
+    </body>
+</html>
